@@ -4,7 +4,7 @@ A responsive, interactive image gallery with category filters and a full-screen 
 
 > Task 1 of my Frontend Development internship at **CodeAlpha**.
 
-![Lumina Gallery screenshot](images/project-screenshot.jpg)
+![Lumina Gallery screenshot](images/project-screenshot.JPG)
 
 ## Features
 
