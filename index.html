@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lumina — Image Gallery</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <p class="eyebrow">Photo Collection</p>
+  <h1>Lumina <span>Gallery</span></h1>
+  <p class="sub">A curated set of moments from nature, cities, space and oceanlife.</p>
+  <nav class="filters" id="filters" aria-label="Filter images"></nav>
+</header>
+
+<main>
+  <p class="count" id="count"></p>
+  <section class="grid" id="grid" aria-live="polite"></section>
+</main>
+
+<div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-label="Image viewer">
+  <button class="lb-btn close" id="close" aria-label="Close">&times;</button>
+  <button class="lb-btn prev" id="prev" aria-label="Previous image">&#10094;</button>
+  <figure>
+    <img id="lb-img" alt="">
+    <figcaption><strong id="lb-title"></strong><span id="lb-meta"></span></figcaption>
+  </figure>
+  <button class="lb-btn next" id="next" aria-label="Next image">&#10095;</button>
+</div>
+
+<footer> Use ← → keys, Esc to close</footer>
+<script src="script.js"></script>
+</body>
+</html>
