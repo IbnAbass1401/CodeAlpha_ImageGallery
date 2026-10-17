@@ -8,7 +8,7 @@ A responsive, interactive image gallery with category filters and a full-screen 
 
 ## Features
 
-- **Lightbox viewer**: click any image to open it full screen with its title, category and position (e.g. `3 / 8`)
+- **Lightbox viewer**: click any image to open it full screen with its title, category and position
 - **Next / Previous navigation**: buttons, keyboard arrows (← →) and touch swipe on mobile
 - **Category filters**: All, Nature, City, Space and Animals, with a live image count
 - **Smooth animations**: staggered fade-in on load, image zoom and caption slide-up on hover, animated lightbox transitions
